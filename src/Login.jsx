@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, Link } from 'react-router-dom'
 import Swal from 'sweetalert2'
 import withReactContent from 'sweetalert2-react-content'
 
@@ -109,7 +109,10 @@ function Login() {
                     </button>
 
                     <div className="text-center text-sm text-gray-500">
-                        Don&apos;t have an account? <a href="/signup" className="text-purple-500">Sing up</a>
+                        Don&apos;t have an account?
+                        <Link to="/signup" className="text-purple-500">
+                            Sign up
+                        </Link>
                     </div>
 
                     <div className="flex gap-4">
