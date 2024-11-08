@@ -118,7 +118,7 @@ function Login() {
                             onClick={handleFacebookLogin}
                             className="flex-1 flex items-center justify-center gap-2 rounded-lg border border-gray-300 py-3 hover:bg-gray-50"
                         >
-                            <i class="fa-brands fa-facebook"></i>
+                            <i className="fa-brands fa-facebook text-blue-600"></i>
                             Facebook
                         </button>
                         <button
@@ -126,7 +126,7 @@ function Login() {
                             onClick={handleGoogleLogin}
                             className="flex-1 flex items-center justify-center gap-2 rounded-lg border border-gray-300 py-3 hover:bg-gray-50"
                         >
-                            <i className="fab fa-google text-red-500"></i>
+                            <i className="fa-brands fa-google text-red-500"></i>
                             Google
                         </button>
                     </div>
